@@ -7,9 +7,9 @@ load_dotenv()
 # VARS
 
 get_queue = {}
-BOT_TOKEN = getenv("BOT_TOKEN")
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+BOT_TOKEN = getenv("BOT_TOKEN"7502892485:AAH0yk2SLeqaMDR7fjRkdYNvTYGi6Kk-ldg)
+API_ID = int(getenv("API_ID", "20370169"))
+API_HASH = getenv("API_HASH"1ef8ae4a82517cc276d317b9ad0a6a6c)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10"))
 ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
 MONGO_DB_URI = getenv("MONGO_DB_URI")
